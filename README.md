@@ -30,8 +30,7 @@ Pi Studio Activity automatically:
 4. Automatically switches to "Preview" when the response is done
 
 #### Demo
-
-<video controls="" width="100%" height="auto" preload="metadata" playsinline="" poster="/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.png"><source src="/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+<img src="blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.gif">
 
 #### Technical Implementation
 
