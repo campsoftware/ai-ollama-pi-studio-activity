@@ -1,9 +1,5 @@
 # Pi Studio Activity Bookmarklet
 
-Draft: true
-Date: 2099-01-01
-
-
 **Pi Studio Activity** is a lightweight JavaScript bookmarklet that automatically manages the [Ollama Pi](https://docs.ollama.com/integrations/pi) package [Pi-Studio](https://github.com/omaclaren/pi-studio) response view modes. It eliminates the manual friction of switching between "Working" (raw token stream) and "Preview" (formatted markdown) views, providing a seamless, hands-free experience during AI interactions.
 
 #### The Problem It Solves 
