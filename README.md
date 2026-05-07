@@ -30,8 +30,7 @@ Pi Studio Activity automatically:
 4. Automatically switches to "Preview" when the response is done
 
 #### Demo
-[Play with Sound](https://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.mp4)
-<br />
+<a href="https://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.mp4" target="_blank">▶️ Play with Sound (opens new tab)</a>
 ![Pi Studio Activity Demo](https://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.gif)
 
 #### Technical Implementation
