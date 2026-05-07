@@ -1,5 +1,9 @@
 # Pi Studio Activity Bookmarklet
 
+Draft: true
+Date: 2099-01-01
+
+
 **Pi Studio Activity** is a lightweight JavaScript bookmarklet that automatically manages the [Ollama Pi](https://docs.ollama.com/integrations/pi) package [Pi-Studio](https://github.com/omaclaren/pi-studio) response view modes. It eliminates the manual friction of switching between "Working" (raw token stream) and "Preview" (formatted markdown) views, providing a seamless, hands-free experience during AI interactions.
 
 #### The Problem It Solves 
@@ -56,13 +60,13 @@ The bookmarklet implements a non-invasive DOM monitoring pattern:
 6. It automatically switches to Preview when done
 7. Click the green badge to disable
 
-#### Bookmarklet
+#### Bookmarklet: Just paste into a browser bookmark.
 
 ```
 javascript:(function(){var lastStatus='';if(window.statusCheckTimer)clearInterval(window.statusCheckTimer);window.statusCheckTimer=setInterval(function(){var statusEl=document.getElementById('status');var sel=document.getElementById('rightViewSelect');if(!statusEl||!sel)return;var statusText=statusEl.textContent||'';var isIdle=statusText.includes('Edit, load, or annotate');if(!isIdle&&sel.value!=='trace'){sel.value='trace';sel.dispatchEvent(new Event('change'));console.log('→ Working');}if(isIdle&&sel.value==='trace'){sel.value='preview';sel.dispatchEvent(new Event('change'));console.log('→ Preview');}},300);var badge=document.createElement('div');badge.innerHTML='🤖 ON';badge.style.cssText='position:fixed;top:10px;right:10px;background:#34C759;color:white;padding:8px 12px;border-radius:6px;z-index:9999;font-size:12px;font-weight:600;cursor:pointer;';badge.onclick=function(){clearInterval(window.statusCheckTimer);badge.remove();console.log('Auto-toggle stopped');};document.body.appendChild(badge);console.log('Auto-toggle active! Click badge to stop.');})();
 ```
 
-#### Expanded View
+#### Bookmarklet Formatted
 
 ```
    javascript:(function(){
