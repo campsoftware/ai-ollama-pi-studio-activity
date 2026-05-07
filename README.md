@@ -24,9 +24,13 @@ Pi Studio Activity Bookmarklet
    Pi Studio Activity automatically:                                                   
    1. Detects when the AI begins generating a response                                 
    2. Instantly switches to "Working" view to show live token streaming                
-   3. Watches for generation completion                                                
+3. Watches for generation completion                                                
    4. Automatically switches to "Preview" when the response is done                    
-                                                                                       
+
+DEMO
+---
+<video controls="" width="100%" height="auto" preload="metadata" playsinline="" poster="http://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.png"><source src="http://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                                                                              
    TECHNICAL IMPLEMENTATION                                                            
    ------------------------                                                            
    The bookmarklet implements a non-invasive DOM monitoring pattern:                   
