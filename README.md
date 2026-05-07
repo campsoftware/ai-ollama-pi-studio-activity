@@ -31,6 +31,7 @@ Pi Studio Activity automatically:
 
 #### Demo
 [Play with Sound](https://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.mp4)
+<br />
 ![Pi Studio Activity Demo](https://campsoftware.com/blog/postMedia/20260507-ai-ollama-pi-studio-activity/PiStudioActivity.gif)
 
 #### Technical Implementation
